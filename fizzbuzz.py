@@ -1,5 +1,5 @@
 #FizzBuzz task
-n = int(input())
+n = int(input("Enter a number: "))
 
 for x in range(1, n):
     if x % 3 == 0 and x % 5 == 0:
@@ -12,7 +12,6 @@ for x in range(1, n):
     elif x % 5 == 0:
         print("Buzz")
         continue
-    
     else:
         print(x)
         continue
